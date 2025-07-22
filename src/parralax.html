@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parallax with TailwindCSS</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .parallax {
+      background-image: url('https://source.unsplash.com/random/1600x900');
+      height: 100vh;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  </style>
+</head>
+<body>
+  <div class="parallax"></div>
+
+  <section class="bg-gray-900 text-white p-16">
+    <h2 class="text-4xl font-bold mb-4">Parallax Effect Section</h2>
+    <p class="text-xl">This section content moves at a normal scroll speed, providing a beautiful contrast to the fixed parallax background image.</p>
+  </section>
+
+  <div class="parallax"></div>
+
+  <section class="bg-gray-800 text-white p-16">
+    <h2 class="text-4xl font-bold mb-4">Another Section</h2>
+    <p class="text-xl">Enjoy scrolling down with a visually appealing parallax effect enhanced by Tailwind CSS styling.</p>
+  </section>
+
+  <div class="parallax"></div>
+</body>
+</html>
