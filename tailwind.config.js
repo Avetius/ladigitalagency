@@ -35,11 +35,13 @@ module.exports = {
         current: "currentColor",
         transparent: "transparent",
         white: "#FFFFFF",
-        primary: "#4A6CF7",
+        primary: "#5eec92ff",
         "dark-text": "#79808A",
         dark: "#111722",
         stroke: "#e5e7eb",
       },
+      // 4A6CF7
+      // 5eec92ff
       backgroundImage: {
         "noise-pattern": "url('../images/NoisePattern.svg')",
       },
